@@ -11,7 +11,7 @@ $(call inherit-product, device/xiaomi/mojito/device.mk)
 TARGET_USES_AOSP_RECOVERY := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
-$(call inherit-product, vendor/radiant/config/common.mk) 
+$(call inherit-product, vendor/bianca/config/common_full_phone.mk)
 
 # GApps Stuff
 #USE_GAPPS := true
@@ -19,7 +19,7 @@ $(call inherit-product, vendor/radiant/config/common.mk)
 #IS_PHONE := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := radiant_mojito
+PRODUCT_NAME := bianca_mojito
 PRODUCT_DEVICE := mojito
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10

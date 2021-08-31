@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/radiant_mojito.mk
+    $(LOCAL_DIR)/bianca_mojito.mk
     
 COMMON_LUNCH_CHOICES := \
-    radiant_mojito-eng \
-    radiant_mojito-userdebug \
-    radiant_mojito-user
+    bianca_mojito-eng \
+    bianca_mojito-userdebug \
+    bianca_mojito-user
